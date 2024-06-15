@@ -1,10 +1,9 @@
 import psycopg2
 import pandas as pd
 
-def connect_postgres(dbname, user, password, host, port):
+def connect_postgres(dbname, password, host, port):
     conn = psycopg2.connect(
         dbname=dbname,
-        user=user,
         password=password,
         host=host,
         port=port

@@ -3,7 +3,7 @@ import nltk
 from nltk.chat.util import Chat, reflections
 
 patterns = [
-    (r'hi|hello|hey', ['Hello!', 'Hi there!', 'Hey!']),
+    (r'hi|hello|hey', ['Hello!', 'Hi there!']),
     (r'how are you?', ['I am doing well, thank you!', 'I am fine, thanks for asking.']),
     (r'what is your name?', ["I'm a chatbot. You can call me BOT!"]),
     (r'what can you do?', ["I can assist you with a variety of tasks. Just ask!"]),
